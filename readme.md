@@ -1,0 +1,1 @@
+This is the backend for a YouTube-like project built with Node.js, Express, and MongoDB. It provides APIs for user authentication, video uploads, comments, likes, and subscriptions.
