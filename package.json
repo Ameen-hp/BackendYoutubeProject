@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "my backend youtube project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javaScript",
@@ -13,6 +14,18 @@
   "author": "Ameen",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "fas": "^0.3.6",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "mongoose-aggregate-paginate": "^2.0.2",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
     "prettier": "^3.6.2"
   }
 }
